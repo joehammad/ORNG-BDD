@@ -1,0 +1,10 @@
+{
+    "loginlocators":{
+
+        "usernametxt" :":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input" ,
+        "passwordtxt" :":nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "LoginBtn" :".oxd-button" 
+
+    }
+   
+}
