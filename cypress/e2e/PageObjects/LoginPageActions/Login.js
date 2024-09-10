@@ -2,13 +2,13 @@
 const LoginElementsLocate = require("../PageElements/LoginElements.json")
 export class LoginPageActions{
 
-    username(usernamee){
-        cy.get(LoginElementsLocate.loginlocators.usernametxt).type(usernamee)
+    setUsername(username){
+        cy.get(LoginElementsLocate.loginlocators.usernametxt).type(username)
         return
     }
     
-    password(passwordd){
-        cy.get(LoginElementsLocate.loginlocators.passwordtxt).type(passwordd)
+    SetPassword(password){
+        cy.get(LoginElementsLocate.loginlocators.passwordtxt).type(password)
         return
     }
     

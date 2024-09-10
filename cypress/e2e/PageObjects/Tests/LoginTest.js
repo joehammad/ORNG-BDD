@@ -1,5 +1,5 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import { LoginPageActions } from "../LoginPageActions/Login";4
+import { LoginPageActions } from "../LoginPageActions/Login";
 
 
 const Login_elemenets = new LoginPageActions
@@ -9,10 +9,10 @@ Given('visit orange HRM website',()=>{
 })
 
  When('user provide username',()=>{
-Login_elemenets.username('admin');
+Login_elemenets.setUsername('admin');
  })
  When('user provide password',()=>{
-     Login_elemenets.password('admin123');
+     Login_elemenets.SetPassword('admin123');
 })
 
 Then('click on login button to login to HRM website',()=>{
