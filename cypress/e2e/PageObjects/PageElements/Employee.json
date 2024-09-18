@@ -8,11 +8,12 @@
 
     "addEmployee":{
         "pimPage":":nth-child(2) > .oxd-main-menu-item",
+        "AddBtn":".orangehrm-header-container > .oxd-button",
         "firstName": ".--name-grouped-field > :nth-child(1) > :nth-child(2) > .oxd-input",
         "middleName":":nth-child(2) > :nth-child(2) > .oxd-input",
         "lastName":":nth-child(3) > :nth-child(2) > .oxd-input",
         "id":".oxd-grid-item > .oxd-input-group > :nth-child(2) > .oxd-input",
-        "saveBtn":":nth-child(3) > :nth-child(2) > .oxd-input"
+        "saveBtn":".oxd-button--secondary"
         
     }
     

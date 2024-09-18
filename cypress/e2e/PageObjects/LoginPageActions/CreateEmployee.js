@@ -5,6 +5,11 @@ export class createEmployee {
     pimPage(){
         cy.get(employeePageElements.addEmployee.pimPage).click()
     }
+    
+    ClickAdd(){
+        cy.get(employeePageElements.addEmployee.AddBtn).click()
+        return
+    }
     setFirstName (FirstName) {
         cy.get(employeePageElements.addEmployee.firstName).type(FirstName)
         return
